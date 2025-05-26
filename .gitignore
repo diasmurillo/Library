@@ -1,0 +1,45 @@
+# === Node.js / API ===
+node_modules/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+coverage/
+
+# PM2 logs
+*.log
+pids
+logs
+*.pid
+
+# === React / Front ===
+front/node_modules/
+front/.env
+front/build/
+front/.DS_Store
+front/.next/
+front/.vercel/
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === VSCode ===
+.vscode/
+*.code-workspace
+
+# === OS Files ===
+*.swp
+*.swo
+
+# === Git ===
+.git/
+
+# === Logs ===
+logs/
+*.log
+*.csv
+*.out
+*.pid
